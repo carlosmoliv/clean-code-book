@@ -1,7 +1,5 @@
 package org.example;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Date;
 
 class DtaRcrd102 {
@@ -72,10 +70,10 @@ public class Main {
          * Check the code inside the classes**
         */
 
-        // Instead of
+        // Compare:
         DtaRcrd102 dataRecord = new DtaRcrd102();
 
-        // Do this
+        // To:
         Customer customerRecord = new Customer();
     }
 
