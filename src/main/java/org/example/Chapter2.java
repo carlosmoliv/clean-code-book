@@ -15,14 +15,13 @@ class Customer {
     private final String recordId = "102";
 }
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class Chapter2 {
     public static void main(String[] args) {
         demonstrateBetterNaming();
         demonstrateIntentionRevealingNames();
         demonstratePronounceableNames();
         demonstrateSearchableNames();
+        demonstrateInterfacesName();
     }
 
     private static void demonstrateBetterNaming() {
@@ -66,10 +65,6 @@ public class Main {
     }
 
     private static void demonstratePronounceableNames() {
-        /*
-         * Check the code inside the classes**
-        */
-
         // Compare:
         DtaRcrd102 dataRecord = new DtaRcrd102();
 
@@ -94,4 +89,26 @@ public class Main {
 //        }
     }
 
+    private static void demonstrateInterfacesName() {
+        // Don't use "I" as prefix
+        // Instead of "IShapeFactory" just simple "ShapeFactory"
+    }
+
+    private static void demonstrateAvoidMentalMapping() {
+        // Bad
+        int x, y;
+
+        //Good
+        int width, height;
+
+        // Bad
+        int a;
+
+        // Good
+        int numberOfStudent;
+    }
+
+    private static void demonstrateClassAndMethodNames() {
+
+    }
 }
