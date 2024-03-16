@@ -1,4 +1,4 @@
-package chapter3;
+package org.example.chapter3.shortFunctions;
 
 public class Chapter3Main {
     public static void main(String[] args) {
